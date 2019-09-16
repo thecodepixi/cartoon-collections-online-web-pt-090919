@@ -22,6 +22,7 @@ def find_the_cheese(foods)
   while i < cheese_types.length 
    if foods.include?(cheese_types[i])
      cheese_types[i]
+     i += 1 
    else 
      nil 
    end 
